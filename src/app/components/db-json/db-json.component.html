@@ -1,0 +1,25 @@
+<div *ngIf="fullResponse">
+    <h1>Students</h1>
+    <ul>
+        <li *ngFor="let s of fullResponse.students">{{s.name}} - {{s.age}}</li>
+    </ul>
+
+    <br><hr><br>
+
+    <h1>Teachers</h1>
+    <ul>
+        <li *ngFor="let s of fullResponse.teachers">{{s.name}} - {{s.age}}</li>
+    </ul>
+
+    <br><hr><br>
+
+    <h1>Stars</h1>
+    <ul>
+        <li *ngFor="let s of fullResponse.starsSky">{{s.StarName}} - {{s.StarWeight}}</li>
+    </ul>
+
+    <br><hr><br>
+
+
+</div>
+© 2020 GitHub, Inc.
